@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Week 2 practice </title>
+  </head>
+  <body>
+    <h1>This is an H1 header, there are H1-H6 headers</h1>
+    <h2>Each heading gets a bit smaller until they are tiny</h2>
+    <p>Hi, my name is Marita and I am practicing HTML :)</p>
+  </body>
+</html>
