@@ -2,112 +2,52 @@
 <html>
 <head>
   <meta charset="utf-8">
-
-  <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-oq35{background-color:#333333;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-kvbp{background-color:#333333;border-color:inherit;color:#333333;text-align:left;vertical-align:top}
-.tg .tg-c6of{background-color:#ffffff;border-color:inherit;text-align:left;vertical-align:top}
-</style>
-
+  
+<title>Assignment 4</title>
 </head>
+
 <body>
-<h2 id="Assignment4">Assignment 4 - Chess, Form, Search Page and Accessability</h2>
+<h2 id="Assignment4.html">Assignment 4 - Form and Accessability</h2>
 
     <h1>Assignment 4</h1>
 
     <div class="">
 
     </div>
-    <h2>Challenge 2: Build a Chessboard</h2>
-    <table class="tg">
-  <thead>
-    <tr>
-      <th class="tg-kvbp"></th>
-      <th class="tg-c6of"></th>
-      <th class="tg-kvbp"></th>
-      <th class="tg-c6of"></th>
-      <th class="tg-oq35"></th>
-      <th class="tg-c6of"></th>
-      <th class="tg-oq35"></th>
-      <th class="tg-c6of"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-    </tr>
-    <tr>
-      <td class="tg-oq35"></td>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-      <td class="tg-c6of"></td>
-      <td class="tg-kvbp"></td>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-      <td class="tg-c6of"></td>
-    </tr>
-    <tr>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-    </tr>
-    <tr>
-      <td class="tg-oq35"></td>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-      <td class="tg-c6of"></td>
-    </tr>
-    <tr>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-    </tr>
-    <tr>
-      <td class="tg-oq35"></td>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-      <td class="tg-c6of"></td>
-    </tr>
-    <tr>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-      <td class="tg-c6of"></td>
-      <td class="tg-kvbp"></td>
-      <td class="tg-c6of"></td>
-      <td class="tg-oq35"></td>
-    </tr>
-  </tbody>
-  </table>
+    <h2>Challenge 3: Create a Form</h2>
+
+    <form>
+<label for="fname">First name:</label><br>
+<input type="text" id="fname" name="fname"><br>
+
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="lname"><br>
+
+<label for="zodiac">Zodiac sign:</label><br>
+<input type="text" id="zodiac" name="zodiac"><br>
+
+<label for="fcolor">Favorite color:</label><br>
+<input type="text" id="fcolor" name="fcolor">
+ <input type="submit" value="Submit">
+</form>
+<br>
+
+
+<div class="">
+
+</div>
+<h2>Challenge 5: Accessability Statement</h2>
+<p>Even though I didn't do challenge 2 of the chessboard, I imagine this would be a really hard one
+  for a screenreader to transcribe. The reader would likely say "square/block 1, white, square/block 2, black..."
+  for all 64 blocks, which would take a lot of time and be frustrating for the user to sit through. To address
+  this and other accesability concerns, I would take the time to add in a name that makes sense for all labels
+  that a screenreader may use, and think critically about how I create things like tables or images and find the best
+  way to display things. For example, the chess table could have been an image with a label of a chessboard instead of a
+  table with filled in squares. Further, I would think about accessability in terms of color blindness once I start using
+  colors besides black and white.
+
+</p>
+
+
+  <a href="index.html"> Back to home </a>
   </body>
