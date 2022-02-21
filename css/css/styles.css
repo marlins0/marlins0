@@ -1,0 +1,108 @@
+p {
+  color: #551667;
+  text-align: left;
+  background-color: #fffbf2
+}
+
+h1 {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: #551667;
+  background-color: #fffbf2;
+}
+
+h2 {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: #551667;
+  background-color: #fffbf2;
+}
+
+h3 {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: #551667;
+  background-color: #fffbf2;
+}
+
+h4 {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: #551667;
+  background-color: #fffbf2;
+}
+
+h5 {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: #551667;
+  background-color: #fffbf2;
+}
+
+h6 {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: #551667;
+  background-color: #fffbf2;
+}
+
+hr {
+  color: #bb5221;
+  background-color: #fffbf2
+}
+
+button {
+  color: #dcafc1;
+  background-color: #6391aa;
+  padding: 14px 40px;
+}
+
+button:visited {
+  color: #dcafc1;
+  background-color: #124d6d;
+  padding: 14px 40px;
+}
+
+button:hover {
+  color: #dcafc1;
+  background-color: #b2d1e1;
+  padding: 14px 40px;
+}
+
+a:link {
+  color: #ef4c00;
+  background-color: #fffbf2;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #bb5221;
+  background-color: #fffbf2
+}
+
+a:hover {
+  color: #ffa552;
+  background-color: #fffbf2
+}
+
+ul {
+  color: #551667;
+  background-color: #fffbf2
+}
+
+ol {
+  color: #551667;
+  background-color: #fffbf2
+}
+
+img {
+  width: 250px;
+  padding: 5px;
+  border: 2px solid #bb5221;
+}
