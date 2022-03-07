@@ -7,7 +7,7 @@
     background-color: #fffbf2;
     padding: 20px;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
   }
   .header {
@@ -17,14 +17,17 @@
     color: #551667;
     background-color: #fff6e0;
     grid-row: 1 / 2;
+    grid-column: 1 / 4;
   }
   .toc {
     background-color: #6391aa;
     grid-row: 2 / 3;
+    grid-column: 1 / 4;
   }
   .content {
     background-color: #dcafc1;
     grid-row: 3 / 4;
+    grid-column: 1 / 4;
   }
   p {
     padding: 10px;
