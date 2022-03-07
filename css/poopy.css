@@ -1,10 +1,10 @@
 @media screen and (max-width; 400px){
   body {
-    background-color: yellow;
+    background-color: #fffbf2;
   }
   .container {
     display: grid;
-    background-color: yellow;
+    background-color: #fffbf2;
     padding: 20px;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 20px;

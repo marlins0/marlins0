@@ -1,43 +1,52 @@
 @media screen and (max-width: 400px){
   body {
-    background-color: yellow;
+    background-color: #fffbf2;
   }
   .container {
     display: grid;
-    background-color: yellow;
+    background-color: #fffbf2;
     padding: 20px;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 20px;
   }
   .header {
     background-color: red;
+    grid-row: 1 / 2;
   }
   .toc {
     background-color: green;
+    grid-row: 2 / 3;
   }
   .content {
     background-color: purple;
+    grid-row: 3 / 4;
   }
   p {
     padding: 10px;
   }
   .mobile-image {
     width: 75%;
+  }
 
+  h1 {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: #551667;
   }
 }
 
 
 @media screen and (min-width: 401px) {
   .header {
-    background-color: blue;
+    background-color: #fffbf2;
   }
   body {
-    background-color: yellow;
+    background-color: #fffbf2;
   }
   .container {
     display:grid;
-    background-color: yellow;
+    background-color: #fff6e0;
     padding: 20px;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
