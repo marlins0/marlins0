@@ -7,9 +7,14 @@
     background-color: #fffbf2;
     padding: 20px;
     grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 20px;
   }
   .header {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: #551667;
     background-color: red;
     grid-row: 1 / 2;
   }
@@ -53,16 +58,20 @@
     gap: 20px;
   }
   .header {
-    background-color: red;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: #551667;
+    background-color: #fff6e0;
     grid-column: 1 / 4;
 
   }
   .toc {
-    background-color: green;
+    background-color: #6391aa;
     grid-row: 2 / 4;
   }
   .content {
-    background-color: purple;
+    background-color: #dcafc1;
     grid-column: 2 / 4;
     grid-row: 2 / 4;
   }
