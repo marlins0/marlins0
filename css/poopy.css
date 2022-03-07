@@ -1,4 +1,4 @@
-@media screen and (max-width: 400px){
+@media screen and (max-width; 400px){
   body {
     background-color: yellow;
   }
@@ -28,10 +28,7 @@
 }
 
 
-@media screen and (min-width: 401px) {
-  .header {
-    background-color: blue;
-  }
+@media screen and (min-width; 401px) {
   body {
     background-color: yellow;
   }
