@@ -42,6 +42,22 @@
     text-align: center;
     color: #551667;
   }
+  a:link {
+    color: #ef4c00;
+    font-weight: bold;
+  }
+
+  a:visited {
+    color: #bb5221;
+  }
+
+  a:hover {
+    color: #ffa552;
+  }
+  .photo {
+    padding: 25px, 25px, 25px, 25px
+
+  }
 }
 
 
@@ -82,7 +98,24 @@
     padding: 10px;
   }
   .mobile-image {
-    width: 75%;
+    width: 50%;
+  }
+  a:link {
+    color: #ef4c00;
+    font-weight: bold;
+  }
+
+  a:visited {
+    color: #bb5221;
+  }
+
+  a:hover {
+    color: #ffa552;
+  }
+  .photo {
+    padding: 25px, 25px, 25px, 25px
+
+  }
   }
 
 }
