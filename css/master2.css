@@ -1,0 +1,29 @@
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  50% {
+    margin-left: 40%;
+    width: 135%;
+    font-size: 300%;
+  }
+
+  75% {
+    margin-left: 20%;
+    width: 105%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.slide-in {
+  animation-duration: 4s;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}

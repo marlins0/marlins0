@@ -1,0 +1,15 @@
+.slide-in {
+  /* transition: property, duration, timint function, delay */
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 1s;
+}
+
+.slide-in:hover{
+  font-size: 300%;
+}
+
+nav {
+  display: flex;
+  gap: 0.5rem;
+}
