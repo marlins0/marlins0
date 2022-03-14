@@ -1,0 +1,139 @@
+@media screen and (max-width: 800px){
+  body {
+    background-color: #efd0e9;
+  }
+  .container {
+    display: grid;
+    background-color: #efd0e9;
+    padding: 20px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+
+  .content {
+    background-color: #efd0e9;
+    grid-row: 3 / 4;
+    grid-column: 1 / 4;
+  }
+  p {
+    padding: 10px;
+    font-family: 'Signika', sans-serif;
+  }
+  .mobile-image {
+    width: 75%;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: black;
+    font-family: 'Shrikhand', cursive;
+  }
+  a:link {
+    color: #ef4c00;
+    font-weight: bold;
+    font-family: 'Shrikhand', cursive;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #bb5221;
+    font-family: 'Shrikhand', cursive;
+    text-decoration: none;
+  }
+
+  a:hover {
+    font-family: 'Shrikhand', cursive;
+    color: #ffc046;
+    text-decoration: none;
+  }
+  .photo {
+    padding: 25px, 25px, 25px, 25px
+
+  }
+
+  hr {
+    background-color:#bb5221;
+    height: 5px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 801px) {
+  .header {
+    background-color: #efd0e9;
+  }
+  body {
+    background-color: #efd0e9;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: black;
+    font-family: 'Shrikhand', cursive;
+  }
+  .container {
+    display:grid;
+    background-color: #efd0e9;
+    padding: 20px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .content {
+    background-color: #efd0e9;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .photo {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  p {
+    padding: 10px;
+    font-family: 'Signika', sans-serif;
+  }
+  .mobile-image {
+    width: 50%;
+  }
+  a:link {
+    color: #ef4c00;
+    font-weight: bold;
+    font-family: 'Shrikhand', cursive;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #bb5221;
+    font-family: 'Shrikhand', cursive;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #ffc046;
+    font-family: 'Shrikhand', cursive;
+    text-decoration: none;
+  }
+  .photo {
+    padding: 25px, 25px, 25px, 25px
+
+  }
+
+  hr {
+    background-color:#bb5221;
+    height: 5px;
+    }
+
+
+  }
+
+}
