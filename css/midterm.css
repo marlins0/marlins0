@@ -11,7 +11,7 @@
   }
 
   .container2 {
-   display:grid;
+   display: flex;
    background-color: #efd0e9;
    grid-template-columns: 1fr 1fr;
    border: 5px, gray
@@ -100,9 +100,9 @@ h3 {
       border: 2px solid black;
       border-radius: 4px;
     }
-    input [type=Message]{
+    input [type=message]{
       width: 50%;
-      height: 50px;
+      height: 100px;
       padding: 12px 20px;
       margin: 8px 0;
       box-sizing: border-box;
@@ -110,6 +110,14 @@ h3 {
       color: #fff5db;
       border: 2px solid black;
       border-radius: 4px;
+  }
+  img {
+    height: 100%;
+
+  }
+  label {
+    font-family: 'Shrikhand', cursive;
+
   }
 
 
@@ -218,7 +226,39 @@ h3 {
       background-color: #b2d1e1;
       padding: 14px 40px;
     }
+    img {
+      Width: 500px;
 
+    }
+
+
+    input {
+      width: 50%;
+      height: 20px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      background-color: #6391aa;
+      color: #fff5db;
+      border: 2px solid black;
+      border-radius: 4px;
+    }
+    input [type=message]{
+      width: 50%;
+      height: 50px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      background-color: #6391aa;
+      color: #fff5db;
+      border: 2px solid black;
+      border-radius: 4px;
+  }
+
+  label {
+    font-family: 'Shrikhand', cursive;
+
+  }
   }
 
 }
