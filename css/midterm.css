@@ -6,29 +6,40 @@
     display: grid;
     background-color: #efd0e9;
     padding: 20px;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
     gap: 20px;
   }
 
+  .container2 {
+   display:grid;
+   background-color: #efd0e9;
+   grid-template-columns: 1fr 1fr;
+   border: 5px, gray
+ }
 
+h3 {
+  font-weight: bold;
+  font-family: 'Signika', sans-serif;
+}
   .content {
     background-color: #efd0e9;
-    grid-row: 3 / 4;
-    grid-column: 1 / 4;
+    grid-row:  1/ 2;
   }
   p {
-    padding: 10px;
     font-family: 'Signika', sans-serif;
-  }
-  .mobile-image {
-    width: 75%;
   }
 
   h1 {
     font-weight: bold;
     font-style: italic;
     text-align: center;
+    color: black;
+    font-family: 'Shrikhand', cursive;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-style: italic;
     color: black;
     font-family: 'Shrikhand', cursive;
   }
@@ -51,7 +62,9 @@
     text-decoration: none;
   }
   .photo {
-    padding: 25px, 25px, 25px, 25px
+    grid-row:  2/ 3;
+    max-width: 40%;
+    height: auto;
 
   }
 
@@ -59,6 +72,45 @@
     background-color:#bb5221;
     height: 5px;
     }
+    button {
+      color: #dcafc1;
+      background-color: #6391aa;
+      padding: 14px 40px;
+    }
+
+    button:visited {
+      color: #dcafc1;
+      background-color: #124d6d;
+      padding: 14px 40px;
+    }
+
+    button:hover {
+      color: #dcafc1;
+      background-color: #b2d1e1;
+      padding: 14px 40px;
+    }
+    input {
+      width: 50%;
+      height: 20px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      background-color: #6391aa;
+      color: #fff5db;
+      border: 2px solid black;
+      border-radius: 4px;
+    }
+    input [type=Message]{
+      width: 50%;
+      height: 50px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      background-color: #6391aa;
+      color: #fff5db;
+      border: 2px solid black;
+      border-radius: 4px;
+  }
 
 
 }
@@ -79,7 +131,19 @@
     color: black;
     font-family: 'Shrikhand', cursive;
   }
-  .container {
+
+  h2 {
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    font-family: 'Shrikhand', cursive;
+  }
+
+  h3 {
+    font-weight: bold;
+    font-family: 'Signika', sans-serif;
+  }
+   .container {
     display:grid;
     background-color: #efd0e9;
     padding: 20px;
@@ -88,23 +152,31 @@
     gap: 20px;
   }
 
+  .container2 {
+   display:grid;
+   background-color: #efd0e9;
+   grid-template-columns: 1fr 1fr;
+   border: 5px, gray
+ }
+
   .content {
     background-color: #efd0e9;
     grid-column: 1 / 2;
-    grid-row: 1 / 2;
   }
 
   .photo {
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    max-width: 40%;
+    height: auto;
+  }
+
+
   }
   p {
     padding: 10px;
     font-family: 'Signika', sans-serif;
   }
-  .mobile-image {
-    width: 50%;
-  }
+
   a:link {
     color: #ef4c00;
     font-weight: bold;
@@ -123,16 +195,29 @@
     font-family: 'Shrikhand', cursive;
     text-decoration: none;
   }
-  .photo {
-    padding: 25px, 25px, 25px, 25px
 
-  }
 
   hr {
     background-color:#bb5221;
     height: 5px;
     }
+    button {
+      color: #dcafc1;
+      background-color: #6391aa;
+      padding: 14px 40px;
+    }
 
+    button:visited {
+      color: #dcafc1;
+      background-color: #124d6d;
+      padding: 14px 40px;
+    }
+
+    button:hover {
+      color: #dcafc1;
+      background-color: #b2d1e1;
+      padding: 14px 40px;
+    }
 
   }
 
