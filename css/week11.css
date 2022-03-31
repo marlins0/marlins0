@@ -20,3 +20,129 @@ button {
   font-size: 50px;
   padding: 50px;
 }
+
+
+
+body {
+  background-color: #efd0e9;
+}
+/*.container {
+  display: grid;
+  background-color: #efd0e9;
+  padding: 20px;
+  grid-template-rows: 1fr 1fr ;
+  gap: 20px;
+}*/
+
+/*.container2 {
+ display: flex;
+ background-color: #efd0e9;
+ grid-template-columns: 1fr 1fr;
+ border: 5px, gray
+}*/
+
+h3 {
+font-weight: bold;
+font-family: 'Signika', sans-serif;
+}
+.content {
+  background-color: #efd0e9;
+  grid-row:  1/ 2;
+}
+p {
+  font-family: 'Signika', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: black;
+  font-family: 'Shrikhand', cursive;
+}
+
+h2 {
+  font-weight: bold;
+  font-style: italic;
+  color: black;
+  font-family: 'Shrikhand', cursive;
+}
+a:link {
+  color: #ef4c00;
+  font-weight: bold;
+  font-family: 'Shrikhand', cursive;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #bb5221;
+  font-family: 'Shrikhand', cursive;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: 'Shrikhand', cursive;
+  color: #ffc046;
+  text-decoration: none;
+}
+.photo {
+  grid-row:  2/ 3;
+  max-width: 40%;
+  height: auto;
+
+}
+
+hr {
+  background-color:#bb5221;
+  height: 5px;
+  }
+  button {
+    color: #dcafc1;
+    background-color: #6391aa;
+    padding: 14px 40px;
+  }
+
+  button:visited {
+    color: #dcafc1;
+    background-color: #124d6d;
+    padding: 14px 40px;
+  }
+
+  button:hover {
+    color: #dcafc1;
+    background-color: #b2d1e1;
+    padding: 14px 40px;
+  }
+  input {
+    width: 50%;
+    height: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #6391aa;
+    color: #fff5db;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+  input [type=message]{
+    width: 50%;
+    height: 100px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #6391aa;
+    color: #fff5db;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+img {
+  height: 100%;
+
+}
+label {
+  font-family: 'Shrikhand', cursive;
+
+}
+
+
+}
