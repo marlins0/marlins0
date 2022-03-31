@@ -1,6 +1,6 @@
 
 function buttonClicked () {
-  document.getElementById('button-1').classList.toggle('is-red');
+  document.getElementById('button-1').classList.click('is-red');
 
 }
 
