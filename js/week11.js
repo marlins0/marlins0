@@ -5,7 +5,7 @@ function buttonClicked () {
 }
 
 function getsBigger() {
-    document.getElementById('button-2').classList.toggle('gets-bigger');
+    document.getElementById('button-2').classList.mouseover('gets-bigger');
 }
 
 function windowLoaded() {
