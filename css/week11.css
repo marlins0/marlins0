@@ -14,3 +14,8 @@ button {
 .is-red {
   color: red;
 }
+
+.gets-bigger
+{
+  font-size: 50px;
+}
