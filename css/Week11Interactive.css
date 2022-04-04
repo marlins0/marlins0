@@ -20,3 +20,24 @@ button {
   font-size: 50px;
   padding: 50px;
 }
+
+body {
+  background-color: #efd0e9;
+
+  button {
+    color: #dcafc1;
+    background-color: #6391aa;
+    padding: 14px 40px;
+  }
+
+  button:visited {
+    color: #dcafc1;
+    background-color: #124d6d;
+    padding: 14px 40px;
+  }
+
+  button:hover {
+    color: #dcafc1;
+    background-color: #b2d1e1;
+    padding: 14px 40px;
+  }
