@@ -1,11 +1,11 @@
 
 function buttonClicked () {
-  document.getElementById('button-1').classList.click('is-red');
+  document.getElementById('button-1').classList.click('.is-red');
 
 }
 
 function getsBigger() {
-    document.getElementById('button-2').classList.mouseover('gets-bigger');
+    document.getElementById('button-2').classList.mouseover('.gets-bigger');
 }
 
 function windowLoaded() {
