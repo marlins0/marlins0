@@ -1,6 +1,6 @@
 
-// function buttonClicked () {
-  // document.getElementById('button-1').classList.click('.is-red');
+function buttonClicked () {
+  document.getElementById('button-1').style.background='#000000';//.classList.click('.is-red');
 
 // }
 
