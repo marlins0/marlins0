@@ -23,8 +23,9 @@ button {
 
 body {
   background-color: #efd0e9;
+}
 
-  button {
+button {
     color: #dcafc1;
     background-color: #6391aa;
     padding: 14px 40px;
