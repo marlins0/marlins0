@@ -10,7 +10,7 @@ function getsBigger() {
 
  function windowLoaded() {
    document.getElementById('button-1').addEventListener('click', buttonClicked);
-   document.getElementById('button-2').addEventListener('mouseover', buttonHovered);
+   document.getElementById('button-2').addEventListener('mouseover', getsBigger);
 
 }
 
