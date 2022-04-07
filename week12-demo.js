@@ -4,7 +4,7 @@
 
 // ID document.querySelector('#js-new-quote');
 
-const = quoteButton document.querySelector('#js-new-quote'); //variable to button
+const quoteButton document.querySelector('#js-new-quote'); //variable to button
 
 quoteButton.addEventListener ('click', getQuote); //looking for click on BUTTON
 
