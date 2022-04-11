@@ -37,6 +37,64 @@ async function getQuote() {
     quoteText.textContent = quote;
   }
 
+
+  function update() {
+    var element = document.getElementById("myprogressBar");
+    var width = 1;
+    var identity = setInterval(scene, 10);
+    function scene() {
+      if (width >= 100) {
+        clearInterval(identity);
+      } else {
+        width++;
+        element.style.width = width + '%';
+      }
+    }
+  }
+  // function move() {
+  //         var elem = document.getElementById("quoteButton");
+  //         var width = 0;
+  //         var id = setInterval(frame,55);
+  //         function frame() {
+  //             if (width >= 100) {
+  //
+  //                 var confirmButton = document.getElementById("confirm");
+  //                 confirmButton.className = "btn btn-success";
+  //                 confirmButton.innerHTML = "<i class='fas fa-coins'></i> Got Rewards!";
+  //                 confirmButton.removeAttribute('disabled');
+  //                 confirmButton.setAttribute('href','https://indaesa.com');
+  //                 clearInterval(id);
+  //
+  //             } else {
+  //                 width++;
+  //                 elem.style.width = width + '%';
+  //                 elem.innerHTML = width * 1  + '%';
+  //             }
+  //         }
+  //     }
+  //     window.onload = move;
+//   $('.progress').animate(
+//     {
+//       width:'100%'
+//     },
+//     {
+//       duration:3000
+//     }
+//   );
+//
+//   function clickme(){
+//   $('.quoteButton').animate(
+//     {
+//       width: '100%'
+//     },
+//     {
+//       duration:3000
+//     }
+//   );
+// }
+//
+// var por = $(".progress").clone();
+// $(".pp").append(por);
 //   window.onload = choosePic;
 //
 // var myPix = new Array("img/trump0.jpg","img/trump1.jpg","img/trump2.jpg","img/trump3.jpg","img/trump4.jpg","img/trump5.jpg");
