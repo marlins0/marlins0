@@ -81,3 +81,27 @@ header {
     font-size: 18px;
   }
 }
+
+a:link {
+  color: #ef4c00;
+  font-weight: bold;
+  font-family: 'Shrikhand', cursive;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #bb5221;
+  font-family: 'Shrikhand', cursive;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: 'Shrikhand', cursive;
+  color: #ffc046;
+  text-decoration: none;
+}
+
+hr {
+  background-color:#bb5221;
+  height: 5px;
+  }
