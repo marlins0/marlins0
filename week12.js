@@ -37,5 +37,30 @@ async function getQuote() {
     quoteText.textContent = quote;
   }
 
+//   window.onload = choosePic;
+//
+// var myPix = new Array("img/trump0.jpg","img/trump1.jpg","img/trump2.jpg","img/trump3.jpg","img/trump4.jpg","img/trump5.jpg");
+//
+// function choosePic() {
+//      var randomNum = Math.floor(Math.random() * myPix.length);
+//      document.getElementById("myPicture").src = myPix[randomNum];
+
+  // var images = [],
+  // index = 0;
+  // images[0] = <a href="img/trump0.jpg">
+  //   <img src="img/trump0.jpg" alt="image of Trump" width="300">;
+  // images[1] = <a href="img/trump1.jpg">
+  //   <img src="img/trump1.jpg" alt="image of Trump" width="300">;
+  // images[2] = <a href="img/trump2.jpg">
+  //   <img src="img/trump2.jpg" alt="image of Trump" width="300">;
+  // images[3] = <a href="img/trump3.jpg">
+  //   <img src="img/trump3.jpg" alt="image of Trump" width="300">;
+  // images[4] = <a href="img/trump4.jpg">
+  //   <img src="img/trump4.jpg" alt="image of Trump" width="300">;
+  // images[5] = <a href="img/trump5.jpg">
+  //     <img src="img/trump5.jpg" alt="image of Trump" width="300">;
+  // index = Math.floor(Math.random() * images.length);
+  // document.write(images[index]);
+
 
 }
