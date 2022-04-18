@@ -73,6 +73,43 @@ header {
   color: #666666;
   cursor: not-allowed;
 }
+
+a:link {
+  color: #ef4c00;
+  font-weight: bold;
+  font-family: 'Shrikhand', cursive;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #bb5221;
+  font-family: 'Shrikhand', cursive;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: 'Shrikhand', cursive;
+  color: #ffc046;
+  text-decoration: none;
+}
+button {
+  color: #dcafc1;
+  background-color: #6391aa;
+  padding: 14px 40px;
+}
+
+button:visited {
+  color: #dcafc1;
+  background-color: #124d6d;
+  padding: 14px 40px;
+}
+
+button:hover {
+  color: #dcafc1;
+  background-color: #b2d1e1;
+  padding: 14px 40px;
+}
+
 @media screen and (max-width: 600px) {
   .app {
     width: 100%;
