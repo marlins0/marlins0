@@ -18,8 +18,10 @@
  }
 
 h3 {
-  font-weight: bold;
+  font-weight: bolder;
   font-family: 'Signika', sans-serif;
+  text-align: center;
+
 }
   .content {
     background-color: #efd0e9;
@@ -65,7 +67,6 @@ h3 {
     grid-row:  2/ 3;
     max-width: 40%;
     height: auto;
-    padding: 5px,5px,5px,5px;
 
   }
 
@@ -114,11 +115,17 @@ h3 {
   }
   img {
     height: 100%;
+    padding: 50px;
 
   }
   label {
     font-family: 'Shrikhand', cursive;
 
+  }
+
+  JPG{
+    padding: 5px, 5px, 5px, 50px;
+    align-items: center;
   }
 
 
@@ -132,7 +139,10 @@ h3 {
   body {
     background-color: #efd0e9;
   }
-
+  JPG{
+    padding: 5px, 5px, 5px, 50px;
+    align-items: center;
+ }
   h1 {
     font-weight: bold;
     font-style: italic;
@@ -149,8 +159,9 @@ h3 {
   }
 
   h3 {
-    font-weight: bold;
+    font-weight: bolder;
     font-family: 'Signika', sans-serif;
+    text-align: center;
   }
    .container {
     display:grid;
@@ -229,6 +240,7 @@ h3 {
     }
     img {
       Width: 500px;
+      padding: 50px;
 
     }
 
